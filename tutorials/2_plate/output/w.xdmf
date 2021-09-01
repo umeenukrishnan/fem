@@ -2,14 +2,14 @@
 <Xdmf Version="3.0">
   <Domain>
     <Grid Name="mesh" GridType="Uniform">
-      <Topology NumberOfElements="32768" TopologyType="Triangle" NodesPerElement="3">
-        <DataItem Dimensions="32768 3" NumberType="UInt" Format="HDF">w.h5:/Mesh/mesh/topology</DataItem>
+      <Topology NumberOfElements="131072" TopologyType="Triangle" NodesPerElement="3">
+        <DataItem Dimensions="131072 3" NumberType="UInt" Format="HDF">w.h5:/Mesh/mesh/topology</DataItem>
       </Topology>
       <Geometry GeometryType="XY">
-        <DataItem Dimensions="16641 2" Format="HDF">w.h5:/Mesh/mesh/geometry</DataItem>
+        <DataItem Dimensions="66049 2" Format="HDF">w.h5:/Mesh/mesh/geometry</DataItem>
       </Geometry>
-      <Attribute Name="f_5" AttributeType="Scalar" Center="Node">
-        <DataItem Dimensions="16641 1" Format="HDF">w.h5:/VisualisationVector/0</DataItem>
+      <Attribute Name="f_95" AttributeType="Scalar" Center="Node">
+        <DataItem Dimensions="66049 1" Format="HDF">w.h5:/VisualisationVector/0</DataItem>
       </Attribute>
     </Grid>
   </Domain>
